@@ -1,14 +1,22 @@
-# Functions
-rust-tools-verisons (){
-  cargo --version
-  rustc --verstion
-  rustup --version
-}
-
-# Alias
+# Aliases
 alias c="cargo"
 alias cr="cargo run"
 alias ccr="cargo clean && cargo run"
 alias ccl="cargo clean"
 alias ci="cargo install"
 alias ca="cargo add"
+alias cver="cargo --version"
+alias rc="rustc"
+alias rcver="rustc --version"
+alias ru="rustup"
+alias ruver="rustup --version"
+alias rui="rustup install"
+alias ruc="rustup component add"
+alias rus="rustup show"
+alias rul="rustup list"
+alias ruc="rustup component add"
+alias rct="rustc --target"
+alias rctls="rustc --target-list"
+alias rcti="rustc --target-install"
+alias rctu="rustc --target-uninstall"
+alias rctv="rustc --version --verbose"
