@@ -32,7 +32,6 @@ A simple Zsh plugin providing convenient aliases for working with Rust's Cargo, 
 | `rcti`  | `rustc --target-install`      | Install target                    |
 | `rctu`  | `rustc --target-uninstall`    | Uninstall target                  |
 | `rctv`  | `rustc --version --verbose`   | Show verbose Rustc version        |
-| `rtt`   | `rust-tools-verisons`         | Show Rust tools versions          |
 
 ## Installation
 
