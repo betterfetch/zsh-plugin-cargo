@@ -1,4 +1,4 @@
-# Zsh-plugin-cargo
+# Zsh-plugin-rust
 
 A simple Zsh plugin providing convenient aliases for working with Rust's Cargo, Rustc, and Rustup tools.
 
@@ -40,11 +40,11 @@ You can also use this plugin in a plain Zsh setup without Oh My Zsh.
 1. Clone the repository anywhere you like:
 
    ```bash
-   git clone https://github.com/betterfetch/zsh-plugin-cargo.git $DESTIATION
+   git clone https://github.com/betterfetch/zsh-plugin-rust.git $DESTIATION
 2. Add it to your ~/.zshrc
     ```bash 
     ...
-    source ~/$DESTINATION/zsh-plugin-cargo.plugin.zsh
+    source ~/$DESTINATION/zsh-plugin-rust.plugin.zsh
     ```
 3. Reload your shell
     ```bash 
@@ -55,10 +55,10 @@ You can also use this plugin in a plain Zsh setup without Oh My Zsh.
 
 1. Clone or copy the plugin into your Oh My Zsh custom plugins directory:
     ```bash
-   git clone https://github.com/betterfetch/zsh-plugin-cargo.git ~/.oh-my-zsh/custom/plugins/zsh-plugin-cargo
+   git clone https://github.com/betterfetch/zsh-plugin-rust.git $ZSH_CUSTOM/plugins/zsh-plugin-rust
 2. Add the plugin to ~/.zshrc
     ```bash
-    plugins=(... zsh-plugin-cargo)
+    plugins=(... zsh-plugin-rust)
     ```
 3. Reload your shell
     ```bash
