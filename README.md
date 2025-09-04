@@ -20,7 +20,7 @@ A simple Zsh plugin providing convenient aliases for working with Rust's Cargo, 
 | `ca`    | `cargo add`                   | Add a dependency                  |
 | `cver`  | `cargo --version`             | Show Cargo version                |
 | `rc`    | `rustc`                       | Run Rust compiler                 |
-| `rcver` | `rustc --version`             | Show Rustc version                |
+| `rcve`  | `rustc --version`             | Show Rustc version                |
 | `ru`    | `rustup`                      | Run Rustup                        |
 | `ruver` | `rustup --version`            | Show Rustup version               |
 | `rui`   | `rustup install`              | Install Rust toolchain            |
